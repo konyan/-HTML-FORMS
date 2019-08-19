@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>HTML-FORMS</title>
 	<link rel="stylesheet" href="css/header.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -30,31 +33,77 @@
 				<img src="images/Intuit.png" width="85px">
 			</div>
 		</header>
-		
+
 		<section class="main-page">
 			<div class="feature-container">
 				<div class="icons-nav">
 					<header>
 						<div class="icons-div-inline">
 							<ul>
-								<li></li>
-								<li>mint</li>
-								<li></li>
-								<li>quickbooks</li>
-								<li></li>
-								<li>turbotax</li>
+
 							</ul>
 						</div>
 					</header>
 				</div>
 				<div class="signup-page-container">
-					
+
+					<h3 class="form_title">Create an Intuit account</h3>
+					<p class="form_description">One account for everything Intuit, including Mint</p>
+					<span class="form_learn_more">Learn more</span>
+					<!-- MY Code here -->
+					<form action="#" method="POST" class="my_form">
+
+						<fieldset class="my_fieldset">
+							<label for="email" class="my_label">Email address</label>
+
+							<div>
+								<input id="email" class="my_email my_input" placeholder="" maxlength="100" type="email"
+									aria-required="true" required="required" autocomplete="off">
+							</div>
+
+						</fieldset>
+
+						<fieldset class="my_fieldset">
+							<label for="phone" class="my_label">Phone(recommended)</label>
+
+							<div>
+								<i class="fa fa-phone my_icon"></i>
+
+								<input id="phone" class="my_email my_input" placeholder="" maxlength="14" type="number"
+									aria-required="true" required="required" autocomplete="off">
+							</div>
+
+						</fieldset>
+						<fieldset class="my_fieldset">
+							<label for="password" class="my_label">Password</label>
+
+							<div>
+								<i class="fa fa-lock my_icon"></i>
+
+								<input id="password" class="my_email my_input" maxlength="16" type="password"
+									aria-required="true" required="required" autocomplete="off">
+							</div>
+
+						</fieldset>
+						<fieldset class="my_fieldset">
+							<label for="confirm" class="my_label">Confirm Password</label>
+
+							<div>
+								<i class="fa fa-lock my_icon"></i>
+
+								<input id="confirm" class="my_email my_input" maxlength="16" type="password"
+									aria-required="true" required="required" autocomplete="off">
+							</div>
+
+						</fieldset>
+					</form>
 				</div>
 			</div>
 		</section>
 
 	</section>
 
-	<script  src="js/index.js"></script>
+	<script src="js/index.js"></script>
 </body>
+
 </html>
