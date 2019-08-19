@@ -15,7 +15,7 @@
   padding: 12px;
   font-weight: 300;
   font-size: 22px;
-  margin-top: 16px;
+  margin-top: 8px;
   margin-bottom: 8px;
   display: block;
   text-align: center;
@@ -37,7 +37,7 @@
 /* FORM ELEMET START HERE, */
 
 .my_form {
-  padding: 8px 32px;
+  padding: 0px 32px 8px 32px;
 }
 
 .my_fieldset {
@@ -103,6 +103,13 @@
 
 /* END FORM ELEMENT CSS */
 
+.my_term {
+  color: #848484;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  padding: 8px 16px;
+}
 .my_footer {
   background-color: #eceef1;
   padding: 20px;
@@ -117,4 +124,9 @@
   color: #646464;
   font-size: 10px;
   display: block;
+}
+
+.small {
+  color: #0077c5;
+  font-size: 11px;
 }
