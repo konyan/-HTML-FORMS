@@ -29,8 +29,8 @@
 		</div>
 
 		<header class="small-nav">
-			<div>
-				<img src="images/Intuit.png" width="85px">
+			<div class="ius-hosted-ui-logo-container">
+				<a id="ius-hosted-ui-header-brand" class="ius-hosted-ui-logo" href="#" aria-label="intuit"></a>
 			</div>
 		</header>
 
@@ -40,13 +40,14 @@
 					<header>
 						<div class="icons-div-inline">
 							<ul>
+								<li class="favicon-mint1" style="left: 142px;"></li>
 
 							</ul>
 						</div>
 					</header>
 				</div>
-				<div class="signup-page-container">
 
+				<div class="signup-page-container">
 					<h3 class="form_title">Create an Intuit account</h3>
 					<p class="form_description">One account for everything Intuit, including Mint</p>
 					<span class="form_learn_more">Learn more</span>
@@ -115,9 +116,39 @@
 						</span>
 					</div>
 				</div>
+					<footer style="height: 90px; position: fixed;bottom: 0;width: 100%;">
+						<div id="" class="" style="padding-bottom: 0px;">
+							<div id="" class="">
+								<ul class="">
+									<li><a id="" href="http://about.intuit.com/legal/" target="_blank" data-wa-link="intcom-legal-Legal">Legal</a></li>
+									<li><a id="" href="https://security.intuit.com/privacy/" target="_blank" data-wa-link="intcom-legal-Privacy">Privacy</a></li>
+									<li><a id="" href="http://security.intuit.com/" target="_blank" data-wa-link="intcom-legal-Security">Security</a></li>
+								</ul>
+							</div>
+							<script>
+							(function() {
+               					var copy = '© {{year}} Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.';
+               					var copyTextYear = '2018';
+               					if (Date) {
+                   					var currentDate =  (new Date());
+                   					if (currentDate.getFullYear()){
+                       				copyTextYear = currentDate.getFullYear();
+                   					}
+               					}	
+               					copy = copy.replace("{{year}}", copyTextYear);
+               					document.getElementById("ius-sign-up-copy-message").innerHTML = copy;
+           					})();
+           					</script>
+           					<div id="" class="">
+           						<span id="ius-sign-up-copy-container">
+           							<span id="ius-sign-up-copy-message">© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+           							<br>Terms and conditions, features, support, pricing, and service options subject to change without notice.
+           						</span>
+           					</div>
+           				</div>
+           			</footer>
 			</div>
 		</section>
-
 	</section>
 
 	<script src="js/index.js"></script>
