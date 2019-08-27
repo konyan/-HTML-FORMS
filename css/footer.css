@@ -1,0 +1,24 @@
+.footerContainer {
+	height: 90px; 
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.trademarksContainer {
+	text-align: center;
+}
+
+.trademarksContainer ul {
+	white-space:nowrap; 
+	text-align:center
+}
+
+.trademarkMessage {
+	text-align:center
+}
+
+.trademarksContainer li {
+	display:inline
+}
