@@ -6,8 +6,16 @@
 	margin-top: 20px;
 }
 
-.trademarksContainer {
+.footerContainer .trademarksContainer {
 	text-align: center;
+	padding: 8px;
+}
+
+.trademarksContainer ul li a{
+	text-decoration: none;
+	color: #424242;
+	font-size: 14px;
+	padding: 16px 8px;
 }
 
 .trademarksContainer ul {
@@ -16,7 +24,9 @@
 }
 
 .trademarkMessage {
-	text-align:center
+	text-align:center;
+	font-size: 12px;
+	color: #525252;
 }
 
 .trademarksContainer li {
