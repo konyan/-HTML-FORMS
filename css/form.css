@@ -36,9 +36,12 @@
 }
 
 /* FORM ELEMET START HERE, */
-
 .my_form {
   padding: 0px 32px 8px 32px;
+}
+
+.my_form input {
+    padding: 0px 2px 0px 5px;
 }
 
 .my_fieldset {
