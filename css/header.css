@@ -1,9 +1,9 @@
-  @import "./form.css";
+@import "./form.css";
 @import "./footer.css";
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
 }
 .wrapper .small-nav {
   text-align: center;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   border-bottom-style: solid;
   border-bottom-width: 0;
   border-bottom-color: transparent;
@@ -130,16 +130,7 @@ body {
   list-style: none;
   text-align: center;
   padding: 1em;
-  /* margin-block-start: 1em;
-  margin-block-end: 1em; */
 }
-
-/* .header-logo-list {
-  height: 23px;
-  width: 318px;
-  overflow: hidden;
-  list-style: none;
-} */
 
 .mint-favicon {
   background: url("https://accounts.intuit.com/IUS-Plugins/v2/images/mint-favicon.svg")
@@ -148,7 +139,6 @@ body {
   height: 23px;
   display: inline-block;
   margin-right: 4px;
-  /* position: relative; */
 }
 
 .mint-text {
