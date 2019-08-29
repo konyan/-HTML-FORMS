@@ -14,6 +14,7 @@ body {
   height: 100%;
   background-color: #eceef1;
 }
+
 .wrapper .small-nav {
   text-align: center;
   padding-bottom: 0;
@@ -22,16 +23,12 @@ body {
   border-bottom-color: transparent;
 }
 
-.wrapper .small-nav .intuit-logo {
-}
-
 .wrapper .main-page .icons-div-inline ul {
   overflow-x: hidden;
   white-space: nowrap;
   height: 23px;
   width: 318px;
-  margin-bottom: 15px;
-  margin: 0 auto;
+  margin: 0 auto 15px auto;
 }
 
 .wrapper .main-page .icons-div-inline {
