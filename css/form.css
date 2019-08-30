@@ -1,0 +1,138 @@
+.signup-page-container {
+  border-radius: 8px;
+  position: relative;
+  border: 1px solid #e2e2e2;
+  width: 380px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+.form_title {
+  color: #242424;
+  padding: 12px;
+  font-weight: 300;
+  font-size: 22px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: block;
+  text-align: center;
+}
+
+.form_description {
+  padding: 8px 24px;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+}
+
+.form_learn_more {
+  color: #0077c5;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+}
+
+/* FORM ELEMET START HERE, */
+.my_form {
+  padding: 0 32px 8px 32px;
+}
+
+.my_form input {
+  padding: 0 2px 0 5px;
+}
+
+.my_fieldset {
+  border: 0;
+  margin: 24px 0;
+  padding: 0;
+  display: block;
+  position: relative;
+}
+
+.my_label {
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.my_input {
+  color: #000;
+  margin-top: 4px;
+  width: 100%;
+  height: 34px;
+  border-radius: 4px;
+  border: 1px solid #c1c5c8;
+  line-height: 1.3em;
+}
+
+.my_input:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  border: 1px solid #52abec;
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+}
+
+.my_icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.my_btn_icon {
+  padding: 8px;
+}
+
+.my_submit_btn {
+  margin-top: 16px;
+  background-color: #0077c5;
+  border: #0077c5;
+  color: white;
+  border-radius: 4px;
+  text-transform: capitalize;
+  width: 100%;
+  height: 44px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.my_submit_btn:hover {
+  transform: scale(1.01, 1.01);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+/* END FORM ELEMENT CSS */
+
+.my_term {
+  color: #848484;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  padding: 8px 16px;
+}
+
+.my_footer {
+  background-color: #eceef1;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.footer_text {
+  color: #646464;
+  font-size: 10px;
+  display: block;
+}
+
+.small {
+  color: #0077c5;
+  font-size: 11px;
+}

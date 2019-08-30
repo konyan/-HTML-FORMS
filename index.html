@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML-FORMS</title>
+	<link rel="stylesheet" href="./css/header.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="already-registered-user">
+			<div class="signin-forgot-div">
+				<div class="already-have-account">
+					<div id="forgot-password">
+						<div>Already have an Intuit account?</div>
+						<a href="#">I forgot my User ID or Password</a>
+					</div>
+					<div id="signin-button-div">
+						<button class="signin-button">
+							<span class="signin-icon"></span> Sign In
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<header class="small-nav">
+			<div class="ius-hosted-ui-logo-container">
+				<!-- <a class="main-logo" href="#" aria-label="intuit"></a> -->
+				<a class="main-logo"></a>
+			</div>
+			<div class="nav-logo">
+				<ul class="header-logo-list">
+					<li class="mint-favicon sliding-animation-icon sliding-icon-1" style="left: 142px;"></li>
+					<li class="mint-text sliding-animation-text sliding-text-1" style="left: 142px;"></li>
+					<li class="quickbooks-favicon sliding-animation-icon sliding-icon-2" style="left: 142px;"></li>
+					<li class="quickbooks-text sliding-animation-text sliding-text-2" style="left: 142px;"></li>
+					<li class="turbotax-favicon sliding-animation-icon sliding-icon-3" style="left: 142px;"></li>
+					<li class="turbotax-text sliding-animation-text sliding-text-3" style="left: 142px;"></li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="main-page">
+
+			<div class="signup-page-container">
+				<h3 class="form_title">Create an Intuit account</h3>
+				<p class="form_description">One account for everything Intuit, including Mint</p>
+				<span class="form_learn_more">Learn more</span>
+				<!-- MY Code here -->
+				<form action="#" method="POST" class="my_form">
+
+					<fieldset class="my_fieldset">
+						<label for="email" class="my_label">Email address</label>
+
+						<div>
+							<i class="fa fa-envelope my_icon"></i>
+
+							<input id="email" class="my_email my_input" placeholder="" type="email" aria-required="true"
+								required="required" autocomplete="off">
+						</div>
+
+					</fieldset>
+
+					<fieldset class="my_fieldset">
+						<label for="phone" class="my_label">Phone(recommended)</label>
+
+						<div>
+							<i class="fa fa-phone my_icon"></i>
+
+							<input id="phone" class="my_email my_input" placeholder="" type="text" aria-required="true"
+								required="required" autocomplete="off">
+						</div>
+
+					</fieldset>
+					<fieldset class="my_fieldset">
+						<label for="password" class="my_label">Password</label>
+
+						<div>
+							<i class="fa fa-lock my_icon"></i>
+
+							<input id="password" class="my_email my_input" type="password" aria-required="true"
+								required="required" autocomplete="off">
+						</div>
+
+					</fieldset>
+					<fieldset class="my_fieldset">
+						<label for="confirm" class="my_label">Confirm Password</label>
+
+						<div>
+							<i class="fa fa-lock my_icon"></i>
+
+							<input id="confirm" class="my_email my_input" maxlength="16" type="password"
+								aria-required="true" required="required" autocomplete="off">
+						</div>
+
+					</fieldset>
+					<button id="submit-btn" class="my_submit_btn" type="submit" name="SignUp"
+						data-clicked-text="Creating ..." data-default-text="Create account">
+						<i class="fa fa-lock my_btn_icon"></i>
+						Create account</button>
+				</form>
+
+				<p class="my_term">
+					By clicking Create account, you agree to our
+					<small class="small"> Terms </small>and have read and acknowledge our <small class="small">Privacy
+						Statement</small>.
+				</p>
+
+				<div class="my_footer">
+					<span class="footer_text">
+						Invisable reCAPTCHA by <small class="small">Google Policy</small> and <small class="small">Terms
+							of
+							Use</small>.
+					</span>
+				</div>
+			</div>
+
+			<footer class="footerContainer">
+				<div>
+					<div class="trademarksContainer">
+						<ul>
+							<li><a href="http://about.intuit.com/legal/" target="_blank"
+									data-wa-link="intcom-legal-Legal">Legal</a></li>
+							<li><a href="https://security.intuit.com/privacy/" target="_blank"
+									data-wa-link="intcom-legal-Privacy">Privacy</a></li>
+							<li><a href="http://security.intuit.com/" target="_blank"
+									data-wa-link="intcom-legal-Security">Security</a></li>
+						</ul>
+					</div>
+					<script>
+						(function () {
+							var copy = '© {{year}} Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.';
+							var copyTextYear = '2018';
+							if (Date) {
+								var currentDate = (new Date());
+								if (currentDate.getFullYear()) {
+									copyTextYear = currentDate.getFullYear();
+								}
+							}
+							copy = copy.replace("{{year}}", copyTextYear);
+							document.getElementById("ius-sign-up-copy-message").innerHTML = copy;
+						})();
+					</script>
+					<div class="trademarkMessage">
+						<span id="ius-sign-up-copy-message">© 2019 Intuit, Inc. All rights reserved. Intuit,
+							QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit
+							Inc.</span>
+						<br>Terms and conditions, features, support, pricing, and service options subject to change
+						without notice.
+					</div>
+				</div>
+			</footer>
+		</section>
+	</div>
+
+	<script src="js/index.js"></script>
+</body>
+
+</html>
